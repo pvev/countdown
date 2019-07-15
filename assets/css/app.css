@@ -1,1 +1,18 @@
 /* This file is for your main application css. */
+
+.countdown-logo {
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+    background-image: url(https://vignette.wikia.nocookie.net/logopedia/images/b/ba/Countdown_2012.png/revision/latest/scale-to-width-down/300?cb=20120109211433);
+    background-repeat: no-repeat;
+    background-size: 200px;
+  }
+
+  .jumbotron .flip-clock-wrapper {
+    text-align: center;
+    position: relative;
+    width: auto;
+    margin-top: 8em;
+    display: inline-block;
+ }
