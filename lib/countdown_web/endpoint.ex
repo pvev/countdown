@@ -1,6 +1,8 @@
 defmodule CountdownWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :countdown
 
+  plug Plug.RequestId
+
   socket "/socket", CountdownWeb.UserSocket
 
   # Serve at "/" the static files from "priv/static" directory.
